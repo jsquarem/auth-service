@@ -12,6 +12,7 @@ Authentication micro-service
 ## Installation
 
 ```md
+cd auth  
 npm install
 ```
 
@@ -28,5 +29,6 @@ skaffold dev
 ## Testing
 
 ```md
+cd auth  
 npm run test
 ```
