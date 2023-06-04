@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
         - name: auth
-          # image: us.gcr.io/ticketing-dev-388220/auth
           image: jsquarem/auth
           env:
             - name: JWT_KEY
